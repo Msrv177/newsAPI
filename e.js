@@ -1,8 +1,6 @@
 import express from 'express'; 
 import { refData , latest_news_district_obj , multiCatogiri_News_Obj  } from './enadu.js';
 
-const router = express.Router() ;
-
 const app = express(); 
 app.listen(4000, () => { console.log(`Server Running... 💨`) });
 
