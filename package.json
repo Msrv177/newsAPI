@@ -1,0 +1,24 @@
+{
+  "name": "newsapi",
+  "version": "1.0.0",
+  "description": "coustem news api",
+  "main": "e.js",
+  "type": "module",
+  "scripts": {
+    "start": "node e.js",
+    "server": "nodemon e.js",
+    "duild" : "netlify deploy --prod",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "jsdom": "^24.1.0",
+    "netlify-cli": "^17.33.0",
+    "netlify-lambda": "^2.0.16",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.4",
+    "serverless-http": "^3.2.0"
+  }
+}
